@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML  &  CSS Zero to Hero </title>
+
+    <style>
+        .column1{
+            float: left;
+            width: 30%;
+        }
+        .column2{
+            float: left;
+            width: 70%;
+        }
+        .row::after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+    
+      sup {
+        color: rgb(255, 0, 0);
+      }
+      .contact {
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 15px;
+      }
+      form {
+        background-color: rgb(207, 46, 199);
+        margin-left: 200px;
+        margin-right: 200px;
+        padding: 30px;
+      }
+      .firstname{
+        width: 250px;
+        margin-bottom: 15px;
+      }
+      .lastname{
+        width: 250px;
+        margin-bottom: 15px;
+      }
+      .line1{
+        width: 300px;
+        margin-bottom: 0x;
+      }
+      .line2{
+        width: 300px;
+        margin-top: 15px;
+      }
+      .number{
+        width: 140px;
+        margin-bottom: 15px;
+      }
+      .gmail{
+        width: 140px;
+        margin-bottom: 15px;
+      }
+      .marea{
+        margin-top: 15px;
+      }
+      .zipcode{
+        margin-top: 15px;
+      }
+      .state{
+        margin-top: 15px;
+      }
+      .city{
+        margin-top: 15px;
+      }
+      .submit{
+        background-color: rgb(47, 27, 230);
+        margin-top: 15px;
+        color: rgb(255, 255, 255);
+      }
+      .fullname{
+        margin-bottom: 15px;
+      }
+      .phonenumber{
+        margin-bottom: 15px;
+      }
+      .email{
+        margin-bottom: 15px;
+      }
+      .address{
+        margin-bottom: 245px;
+      }
+      .message{
+        margin-bottom: 140px;
+      }
+
+    </style>
+</head>
+<body>
+    <form>
+        <div class="row">
+        <div class="contact">Contact Us Form</div>    
+        <div class="column1">
+          <div class="full Name "> Full Name<sup>*</sup></div>
+          <div class="phonenumber"> Phone Number <sup>*</sup></div> 
+          <div class="email" > Email <sup>*</sup></div>
+          <div class="address"> Address<sup>*</sup></div>
+          <div class="message">Message </div>
+          <div class="method">Preffered Method of Contact</div>
+          </div>
+     
+          <div class="column2">
+              <div>
+                  <input type="text" name="full name" placeholder="First Name" class="firstname" />
+                  <input type="text" name="full name" placeholder="Last Name" class="lastname" />
+
+              </div>
+              <div>
+                  <input type="number" placeholder="+91-9999999999" class="number" />
+
+              </div>
+              <div>
+                  <input type="email" name="email" placeholder="abcd@gmail.com"/>
+              </div>
+              <div>
+                  <div> <input type="text" name="address" class="line1" /> </div>
+                  <div> Street Address</div>
+
+              </div>
+            <div>
+                <div> <input type="text" name="address" class="line2" /> </div>
+            </div>  
+              <div> Street Addres Lline2 </div>
+              
+              <div>
+                  <input type="text" name="city" class="city" />
+              </div>
+               <div>Class </div>
+               <div>
+                   <input type="text" name="state" class="state" />
+               </div>
+               
+               <div> State/ province </div>
+            
+               <div>
+                   <input type="number" name="zip code" class="zipcode" />
+               </div>  
+               <div>Postal/ Zipd code</div>
+               <div>
+                   <textarea name="message" id="" cols="50" rows="10" class="marea" > </textarea>
+
+               </div>
+
+               <div><input type="checkbox" name="phone" class="phonebox"/> Phone</div>
+               <div><input type="checkbox" name="email" class="emailbox" /> Email</div>
+                <div>
+                    <input type="submit" value="submit" class="submit"/>
+                </div> 
+               
+              </div>
+              </div>
+
+            
+               
+                
+
+          </div>
+    </form>
+
+    
+</body>
+</html>
